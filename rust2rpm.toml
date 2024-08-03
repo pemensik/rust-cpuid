@@ -1,0 +1,2 @@
+[package]
+summary = "Rust library to parse the x86 CPUID instruction"
