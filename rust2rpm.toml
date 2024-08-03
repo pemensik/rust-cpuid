@@ -1,2 +1,10 @@
 [package]
 summary = "Rust library to parse the x86 CPUID instruction"
+cargo-install-bin = false
+supported-arches = ["x86_64", "i686"]
+
+[features]
+enable-all = false
+enable = ["std", "serialize"]
+hide = ["cli"]
+disable-default = true
