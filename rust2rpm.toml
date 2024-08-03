@@ -1,3 +1,6 @@
+# Already existing review in progress:
+# https://bugzilla.redhat.com/show_bug.cgi?id=2283685
+
 [package]
 summary = "Rust library to parse the x86 CPUID instruction"
 cargo-install-bin = false
